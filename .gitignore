@@ -1,0 +1,54 @@
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Python Cache & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# Environment Variables (SECRETS)
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Generated Outputs & Artifacts
+# (Do not commit LLM outputs, graphs, or test artifacts)
+# ==========================================
+outputs/
+multi_agent_brain/outputs/
+test_outputs/
+*.png
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Testing & Tooling Cache
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/

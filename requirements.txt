@@ -1,0 +1,41 @@
+# ==========================================
+# Core Data Validation & Configuration
+# ==========================================
+# Strict schema validation for LLM JSON outputs and Pydantic V2 models
+pydantic>=2.0.0
+# Loads environment variables from the .env file
+python-dotenv>=1.0.0
+
+# ==========================================
+# LLM & API Communication
+# ==========================================
+# Async HTTP client used to communicate with the local Ollama server
+httpx>=0.24.0
+
+# ==========================================
+# Graph Theory & Dependency Management
+# ==========================================
+# Used to build, validate, and traverse the Directed Acyclic Graph (DAG)
+networkx>=3.0
+
+# ==========================================
+# Vector Embeddings & Math
+# ==========================================
+# Local lightweight embedding model (all-MiniLM-L6-v2) for semantic similarity
+sentence-transformers>=2.2.0
+# Required for fast cosine similarity calculations between task embeddings
+numpy>=1.24.0
+
+# ==========================================
+# Visualization
+# ==========================================
+# Generates the dependency_graph.png visual output
+matplotlib>=3.7.0
+
+# ==========================================
+# Testing & Async Execution
+# ==========================================
+# Core testing framework
+pytest>=7.0.0
+# Required to run and test async/await functions (asyncio) in pytest
+pytest-asyncio>=0.21.0
